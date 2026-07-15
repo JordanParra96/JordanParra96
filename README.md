@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2018;  Apex, Design patterns, Javascript, integrations, coding best practices strong expertise.<br><br>📚 I'm currently learning Salesforce Agentforce, eager to continue learn advanced Salesforce development and new coding languages.<br><br>🎯 Goals: Become a better and better person and developer 💪<br><br>🎲 Fun fact: I love sports and I am a swimmer in my free time 🏊‍♂️</p>
+<p align="left">✨ Creating bugs since 2018;  Apex, Design patterns, Javascript, integrations, coding best practices strong expertise.<br><br>📚 I'm currently learning Python, eager to continue learn advanced Salesforce development and new coding languages.<br><br>🎯 Goals: Become a better and better person and developer 💪<br><br>🎲 Fun fact: I love sports and I am a swimmer in my free time 🏊‍♂️</p>
 
 ###
 
