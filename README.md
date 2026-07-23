@@ -46,10 +46,11 @@
 
 ###
 
-<h2 align="left">📊 Top Languages</h2>
+<h2 align="left">🔥 My stats</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=400&langs_count=6&theme=dark&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=40c463&icon_color=40c463&text_color=c9d1d9&ring_color=40c463" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=40c463&text_color=c9d1d9" height="150" alt="languages graph"  />
 </div>
 
 ###
