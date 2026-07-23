@@ -51,4 +51,14 @@
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
   </div>
 
+###
 
+<h2 align="left">🌳 My 3D Contributions</h2>
+
+###
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-3d-green.svg" alt="3D contributions graph (green)" width="100%" />
+</p>
+
+###
