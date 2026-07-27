@@ -6,7 +6,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - feature/3d-contributions
+      - main
+      - 'feature/**'
+      - 'fix/**'
 
 permissions:
   contents: write
@@ -27,6 +29,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "chore: generate 3D contribution graph (green)"; then
+          if git commit -m "chore: generate 3D contribution graph (green, light/dark)"; then
             git push
           fi
