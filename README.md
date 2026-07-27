@@ -60,7 +60,11 @@
 ###
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-3d-green.svg" alt="3D contributions graph (green)" width="800" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-3d-green-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-3d-green-light.svg" />
+    <img src="./profile-3d-contrib/profile-3d-green-light.svg" alt="3D contributions graph (green)" width="800" />
+  </picture>
 </p>
 
 ###
