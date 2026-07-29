@@ -49,8 +49,16 @@
 <h2 align="left">🔥 My stats</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=40c463&icon_color=40c463&text_color=c9d1d9&ring_color=40c463" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=40c463&text_color=c9d1d9" height="150" alt="languages graph"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=40c463&icon_color=40c463&text_color=c9d1d9&ring_color=40c463" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=216e39&icon_color=216e39&text_color=24292f&ring_color=216e39" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=216e39&icon_color=216e39&text_color=24292f&ring_color=216e39" height="150" alt="stats graph" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=40c463&text_color=c9d1d9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=216e39&text_color=24292f" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=216e39&text_color=24292f" height="150" alt="languages graph" />
+  </picture>
 </div>
 
 ###
