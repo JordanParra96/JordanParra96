@@ -50,14 +50,14 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=40c463&icon_color=40c463&text_color=c9d1d9&ring_color=40c463" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=216e39&icon_color=216e39&text_color=24292f&ring_color=216e39" />
-    <img src="https://github-readme-stats.vercel.app/api?username=JordanParra96&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=216e39&icon_color=216e39&text_color=24292f&ring_color=216e39" height="150" alt="stats graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img src="./profile/stats-light.svg" height="150" alt="stats graph" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=40c463&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=216e39&text_color=24292f" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=JordanParra96&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=216e39&text_color=24292f" height="150" alt="languages graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
+    <img src="./profile/top-langs-light.svg" height="150" alt="languages graph" />
   </picture>
 </div>
 
