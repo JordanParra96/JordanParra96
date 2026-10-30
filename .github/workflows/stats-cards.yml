@@ -25,7 +25,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=40c463&icon_color=40c463&text_color=c9d1d9&ring_color=40c463
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }} # PAT (repo, read:user) para contar repos privados
 
       - name: Stats card (light)
         uses: stats-organization/github-readme-stats-action@v2
@@ -33,7 +33,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=true&bg_color=00000000&title_color=216e39&icon_color=216e39&text_color=24292f&ring_color=216e39
           path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }} # PAT (repo, read:user) para contar repos privados
 
       - name: Top languages card (dark)
         uses: stats-organization/github-readme-stats-action@v2
@@ -41,7 +41,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=40c463&text_color=c9d1d9
           path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }} # PAT (repo, read:user) para contar repos privados
 
       - name: Top languages card (light)
         uses: stats-organization/github-readme-stats-action@v2
@@ -49,7 +49,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&hide_border=true&bg_color=00000000&title_color=216e39&text_color=24292f
           path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }} # PAT (repo, read:user) para contar repos privados
 
       - name: Commit & Push
         run: |
